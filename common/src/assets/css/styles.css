@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Raleway' !important;
+}
+
+.hiUhvT .hosting_navbar .main_menu li.is-current a, .hiUhvT .hosting_navbar .main_menu a:hover{
+  color: #faa61c !important;
+}
+
+.bg {
+  background-image: url('../image/saas/saas-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: 110px;
+  padding-bottom: 160px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.text h1 {
+  max-width: 450px;
+  margin-right: 30px;
+}
+.image {
+  max-width: 450px;
+}
+.ameego {
+  padding-top: 100px;
+}
+
+.ameego p {
+  max-width: 1000px;
+  line-height: 2rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+  max-width: 340px;
+  flex: 0 0 33.333333%;
+  margin-bottom: 60px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.member {
+}
+.member h4,
+p {
+  padding: 0 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.member h2 {
+  margin-bottom: 10px;
+}
+
+#contact {
+  padding: 25px;
+  margin: 0px 0;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type='text'],
+#contact input[type='email'],
+#contact select,
+#contact input[type='tel'],
+#contact input[type='url'],
+#contact textarea {
+  width: 80%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type='text']:hover,
+#contact input[type='email']:hover,
+#contact input[type='tel']:hover,
+#contact input[type='url']:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type='submit'] {
+  cursor: pointer;
+  max-width: 300px;
+  border: none;
+  background: #faa61c;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type='submit']:hover {
+  background: #24649e;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type='submit']:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+::-webkit-input-placeholder {
+  color: #888;
+}
+:-moz-placeholder {
+  color: #888;
+}
+::-moz-placeholder {
+  color: #888;
+}
+:-ms-input-placeholder {
+  color: #888;
+}
+
+@media screen and (max-width: 1220px) {
+  .member {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact input[type='text'],
+  #contact input[type='email'],
+  #contact select,
+  #contact input[type='tel'],
+  #contact input[type='url'],
+  #contact textarea {
+    width: 100%;
+  }
+  .member {
+    flex: 0 0 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .text h1 {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .fkyyRW {
+    max-width: 100%;
+    margin-top: 30px !important;
+  }
+  .Text__TextWrapper-gJojYz,
+  .lanQCh {
+    margin-bottom: 30px !important;
+  }
+  .buttonstyle__ButtonStyle-kLOevE,
+  .hEOnbk,
+  .reusecore__button {
+    min-height: 65px !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .member {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .kcZFiy {
+    display: none !important;
+  }
+}
